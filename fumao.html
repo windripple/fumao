@@ -1,0 +1,356 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script>
+
+$(document).on("pagehide","#pagetwo",function(){
+ $('#player2').attr('src', '');
+});
+$(document).on("pageshow","#pagetwo",function(){
+ $('#player2').attr('src', '//www.youtube.com/embed/WglPJTsKBQ0');
+});
+$(document).on("pagehide","#pagethree",function(){
+ $('#player3').attr('src', '');
+});
+$(document).on("pageshow","#pagethree",function(){
+ $('#player3').attr('src', '//www.youtube.com/embed/IpM_mYdp_Xg?feature=player_embedded');
+});
+$(document).on("pagehide","#pagefour",function(){
+ $('#player4').attr('src', '');
+});
+$(document).on("pageshow","#pagefour",function(){
+ $('#player4').attr('src', '//www.youtube.com/embed/j7AA2EsI_vI?feature=player_embedded');
+});
+$(document).on("pagehide","#pagefive",function(){
+ $('#player5').attr('src', '');
+});
+$(document).on("pageshow","#pagefive",function(){
+ $('#player5').attr('src', '//www.youtube.com/embed/sHKXPgq19xg?feature=player_embedded');
+});
+$(document).on("pagehide","#pagesix",function(){
+ $('#player6').attr('src', '');
+});
+$(document).on("pageshow","#pagesix",function(){
+ $('#player6').attr('src', '//www.youtube.com/embed/aJ1pdttovkc?feature=player_embedded');
+});
+$(document).on("pagehide","#pageseven",function(){
+ $('#player7').attr('src', '');
+});
+$(document).on("pageshow","#pageseven",function(){
+ $('#player7').attr('src', '//www.youtube.com/embed/cSiOVMVJY7g?feature=player_embedded');
+});
+$(document).on("pagehide","#pageeight",function(){
+ $('#player8').attr('src', '');
+});
+$(document).on("pageshow","#pageeight",function(){
+ $('#player8').attr('src', '//www.youtube.com/embed/OF13Ir4QU0E?feature=player_embedded');
+});
+
+</script>
+</head>
+<style>
+
+
+    #content {
+        padding: 0;
+    }
+</style>
+<body>
+
+<div data-role="page" id="pageone">
+  <div data-role="panel" id="mypanel" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>服貿直播</h1>
+  </div>
+   <div data-role="controlgroup" data-type="vertical">
+  <div data-role="main" class="ui-content">
+   <img width="100%" src="http://newday.tw/images/newday.jpg?1395512286">
+    <a href="http://g0v.today/">g0v 零時政府</a>
+    <a href=" http://newday.tw/">newday.tw</a>
+   </div>
+
+   
+  </div>
+
+  <div data-role="footer">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+
+
+
+<!--page2-->
+
+<div data-role="page" id="pagetwo">
+
+
+  <div data-role="panel" id="mypanel2" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel2" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>議場內 樓上(蘋果)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player2" width="100%" height="230px"  src="//www.youtube.com/embed/WglPJTsKBQ0" frameborder="0" allowfullscreen></iframe>
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+<!--page3-->
+<div data-role="page" id="pagethree">
+
+
+  <div data-role="panel" id="mypanel3" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel3" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>議場內+文字(anon)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player3" width="100%" height="230px"  src="//www.youtube.com/embed/IpM_mYdp_Xg?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+<!--page4-->
+<div data-role="page" id="pagefour">
+
+
+  <div data-role="panel" id="mypanel4" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel4" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>議場內+議事台(黑島)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player4" width="100%" height="230px"  src="//www.youtube.com/embed/j7AA2EsI_vI?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+<!--page5-->
+<div data-role="page" id="pagefive">
+
+
+  <div data-role="panel" id="mypanel5" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel5" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>議場內+樓下(音地)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player5" width="100%" height="230px"  src="//www.youtube.com/embed/sHKXPgq19xg?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+
+<!--page6-->
+<div data-role="page" id="pagesix">
+
+
+  <div data-role="panel" id="mypanel6" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel6" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>議場外(蘋報)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player6" width="100%" height="230px"  src="//www.youtube.com/embed/aJ1pdttovkc?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+<!--page7-->
+<div data-role="page" id="pageseven">
+
+
+  <div data-role="panel" id="mypanel7" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel7" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>濟南路(g0v)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player7" width="100%" height="230px"  src="//www.youtube.com/embed/cSiOVMVJY7g?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+<!--page8-->
+<div data-role="page" id="pageeight">
+
+
+  <div data-role="panel" id="mypanel8" data-position-fixed="true" data-display="overlay"> 
+  <a href="#" data-rel="close" class="ui-btn ui-shadow ui-corner-all ui-btn-a ui-icon-arrow-l ui-btn-icon-left">close</a>
+    <div data-role="controlgroup" data-type="vertical">
+    <a href="#pageone" class="ui-btn  ui-corner-all ui-shadow">首頁</a>
+    <a href="#pagetwo" class="ui-btn  ui-corner-all ui-shadow">議場內 樓上(蘋報)</a>
+    <a href="#pagethree" class="ui-btn  ui-corner-all ui-shadow">議場內+文字(anon)</a>
+    <a href="#pagefour" class="ui-btn  ui-corner-all ui-shadow">議場內+議事台(黑島)</a>
+    <a href="#pagefive" class="ui-btn  ui-corner-all ui-shadow">議場內+樓下(音地)</a>
+    <a href="#pagesix" class="ui-btn  ui-corner-all ui-shadow">議場外(蘋報)</a>
+    <a href="#pageseven" class="ui-btn  ui-corner-all ui-shadow">濟南路(g0v)</a>
+    <a href="#pageeight" class="ui-btn  ui-corner-all ui-shadow ui-btn-b">青島東(g0v)</a>
+    </div>
+  </div> 
+
+  <div data-role="header">
+   <a href="#mypanel8" class="ui-btn ui-corner-all ui-shadow ui-icon-arrow-r ui-btn-icon-left">List</a>
+    <h1>青島東(g0v)</h1>
+  </div>
+
+ 
+
+  <div data-role="main" class="ui-content" id="content">
+  <iframe id="player8" width="100%" height="230px"  src="//www.youtube.com/embed/OF13Ir4QU0E?feature=player_embedded" frameborder="0" allowfullscreen></iframe>
+
+  <iframe width="100%" height="300px" src="http://congress-text-live.herokuapp.com/"></iframe>
+  </div>
+
+  <div data-role="footer" data-position="fixed">
+    <h1>反黑箱服貿 太陽花學運</h1>
+  </div> 
+</div> 
+
+
+</body>
+</html>
